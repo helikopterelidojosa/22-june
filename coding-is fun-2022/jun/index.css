@@ -1,0 +1,36 @@
+body {
+  background-color: #000066;
+  color: #ce6012;
+  font-family: monospace;
+}
+
+.story-article {
+  background-color: #000;
+  color: #00ffff;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+
+.story-h {
+  color: #ce6012;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.new-pro {
+  padding: 5px;
+  background-color: #0d3314;
+  color: #00ffff;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.new-pro * {
+  margin-right: 10px;
+}
